@@ -1,1 +1,14 @@
 /*  your css code here. If applicable */
+#container {
+  margin: 20px;
+  position: relative;
+}
+
+#container::before,
+#container::after {
+  content: " Special Text ";
+/*   display: block; */
+  color: #f00;
+  font-size: 20px;
+  /*text-align: center; */
+}
